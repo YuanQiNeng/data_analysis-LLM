@@ -6,7 +6,7 @@ from langchain_experimental.agents import *
 
 from langchain_openai import ChatOpenAI
 def LLM(model='qwen-max'):
-    llm=ChatOpenAI(base_url='https://dashscope.aliyuncs.com/compatible-mode/v1',api_key='sk-7a563ff5cb45410e9c8673685a7ab167',model=model,temperature=0)
+    llm=ChatOpenAI(base_url='YOUR BASE URL',api_key='YOUR API_KEY',model=model,temperature=0)
     return llm
 
 import warnings
