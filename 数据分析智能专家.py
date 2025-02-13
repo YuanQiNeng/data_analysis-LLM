@@ -125,9 +125,13 @@ with gr.Blocks(theme='black') as demo:
         def response(query:str):
             global history,agent,res,generate_code
             res=agent.run(query)
-            if type(res)==sns.axisgrid.PairGrid:
-                image_show=res 
-                image_show.savefig('image.png')
+            if type(res)!=dict:
+                try:
+                    image_show=res 
+                    image_show.savefig('image.png')
+                except AttributeError:
+                    fig=res.get_figure()
+                    fig.savefig('image.png')
                 res='绘制的图形已完成，请到可视化区查看'
             else:
                 if res['intermediate_steps']:
