@@ -1,4 +1,4 @@
-# data_analysis-LLM
+# langchian-data_analysis
 运用langchain实现数据分析与挖掘助手，令LLM生成代码并且运行，
 从而实现智能化机器学习，并且自动绘制数据可视化图形。
 借鉴langchain_experimental的create_pandas_dataframe_agent类，
