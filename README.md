@@ -4,3 +4,7 @@
 借鉴langchain_experimental的create_pandas_dataframe_agent类，
 在此基础上进一步增加历史记忆功能与代码实体记忆功能等其他功能通过提示词工程
 ![image](https://github.com/user-attachments/assets/d426a684-d142-4cf0-b554-2c5e2be6902a)
+
+![image](https://github.com/user-attachments/assets/3e3236a2-dec9-4770-bfb9-c137fe6bb9f5)
+
+![image](https://github.com/user-attachments/assets/839bbcb5-239d-40f4-8231-5429496a788f)
